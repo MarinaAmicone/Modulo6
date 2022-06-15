@@ -1,0 +1,52 @@
+@font-face {
+    font-family: fuente1;
+    src: url(../Desafio1/Fuentes/coolvetica\ rg.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: fuente2;
+    src: url(../Desafio1/Fuentes/Roboto-Light.ttf);
+    font-weight: regular;
+}
+
+*{box-sizing: border-box;}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: fuente1;
+    font-size: 120px;
+    font-weight: 400;
+    color: #0a2ff1;
+}
+
+p{
+    font-family: fuente2;
+    font-size: 40px;
+    font-weight: 300;
+    color: #04146c;
+}
+
+button{
+    font-family: fuente2;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    background-color: #0a2ff1;
+    border: 3px solid #0a2ff1;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#boton2{
+    font-family: fuente2;
+    font-size: 40px;
+    font-weight: 400;
+    color: #04146c;
+    background-color: white;
+}
